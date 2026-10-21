@@ -23,12 +23,16 @@
 
 ## 支持的模型
 
+模型列表由 Zed 按账号实时下发，不同账号可能不同（Zed 分批灰度）。以下为实测汇总（2026-10），以 `GET /v1/models` 的实际返回为准：
+
 | 供应商 | 模型 |
 |---------|------|
-| Anthropic | claude-opus-4-6, claude-opus-4-5, claude-sonnet-4-5, claude-sonnet-4, claude-haiku-4-5 等 |
-| OpenAI | gpt-5.2, gpt-5.1, gpt-5, gpt-5-mini, gpt-5-nano 等 |
-| Google | gemini-3-pro-preview, gemini-2.5-pro, gemini-3-flash 等 |
-| xAI | grok-4, grok-4-fast-reasoning, grok-code-fast-1 等 |
+| Anthropic | claude-opus-4-6, claude-opus-4-5, claude-opus-4-1, claude-sonnet-5-5, claude-sonnet-5, claude-sonnet-4-6, claude-sonnet-4-5, claude-sonnet-4, claude-3-7-sonnet, claude-haiku-5-5, claude-haiku-4-5 |
+| OpenAI | gpt-6.1-sol, gpt-6-sol, gpt-6-luna, gpt-5.6-sol, gpt-5.6-terra, gpt-5.6-luna, gpt-5.5, gpt-5.4, gpt-5.3-codex, gpt-5.2, gpt-5.2-codex, gpt-5.1, gpt-5, gpt-5-mini, gpt-5-nano |
+| Google | gemini-4-argon, gemini-3.1-pro-preview, gemini-3-pro-preview, gemini-3.8-flash, gemini-3.5-flash, gemini-3-flash, gemini-2.5-pro, gemini-2.5-flash |
+| xAI | grok-4, grok-4-fast-reasoning, grok-4-fast-non-reasoning, grok-code-fast-1 |
+
+注：部分账号已下发新一代模型（如 claude-sonnet-5、gpt-5.6-sol、gemini-4-argon），部分账号仍为上一代列表（如 claude-opus-4-6、gpt-5.2、grok-4）；同一账号的列表也会随 Zed 的调整而变化。
 
 ## 编译
 
